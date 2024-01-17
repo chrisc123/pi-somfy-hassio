@@ -4,4 +4,4 @@ cd /somfy/*
 pigpiod
 sleep 0.5
 pigs t
-./operateShutters.py -c /config/shutters.conf -a -m
+../../venv/bin/python operateShutters.py -c /config/shutters.conf -a -m
